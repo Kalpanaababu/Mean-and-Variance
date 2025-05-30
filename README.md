@@ -1,3 +1,6 @@
+## NAME :KALPANAA BABU TM
+## REGISTER NUMBER:212224230112
+
 #  Mean and variance of a discrete  distribution
 
 
@@ -48,7 +51,7 @@ It shows the distance of a random variable from its mean. It is calcualted as
 ![image](https://user-images.githubusercontent.com/103921593/229993174-5b67e57e-3e01-4ac4-9f83-410a932b22bf.png)
 
 # Program :
-```
+```python
 import numpy as np
 L=[int(i) for i in input().split()]
 N=len(L); M=max(L) 
@@ -70,15 +73,10 @@ var=EX2-mean**2
 SD=np.sqrt(var)
 print("The Mean arrival rate is %.3f "%mean)
 print("The Variance of arrival from feeder is %.3f "%var) 
-print("The Standard deviation of arrival from feeder is %.3F "%SD)
-
+print("The Standard deviation of arrival from feeder is %.3F "%SD)
 ```
-
-
-
 # Output : 
-![image](https://github.com/user-attachments/assets/e18f4dcb-280c-4b54-814b-eabe12bb6b5a)
-
+![image](https://github.com/rakshithaprakashkumar11/Mean-and-Variance/assets/150994181/beba19f2-e785-49c7-8471-729b29fb8252)
 
 # Results :
 The mean and variance of arrivals of objects from feeder using probability distribution are calculated.
